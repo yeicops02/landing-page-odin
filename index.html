@@ -8,25 +8,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modern-normalize.css">
     <title>Landing Page</title>
 </head>
 
 <body>
     <header class="header">
+        <div class="header_container">
+            <div class="header__logo">
+                <a class="header__logo-link" href="#">Header Logo</a>
+            </div>
 
-        <div class="header__logo">
-            <a class="header__logo-link"  href="#">Header Logo</a>
+            <nav class="navegacion">
+                <ul class="navegacion__list">
+                    <li><a class="navegacion_list-item" href="#">header link one</a></li>
+                    <li><a class="navegacion_list-item" href="#">header link two</a></li>
+                    <li><a class="navegacion_list-item" href="#">header link three</a></li>
+                </ul>
+            </nav>
         </div>
-
-        <nav class="navegacion">
-            <ul class="navegacion__list">
-                <li class="navegacion_list-item"><a href="#"></a>header link one</li>
-                <li class="navegacion_list-item"><a href="#"></a>header link two</li>
-                <li class="navegacion_list-item"><a href="#"></a>header link three</li>
-            </ul>
-        </nav>
-
     </header>
 
     <div class="hero">
@@ -34,7 +35,8 @@
 
             <div class="hero__content">
                 <h1 class="hero__heading">This website is <br>awesome</h1>
-                <p class="hero__paragraph">This website has some subtext that goes here under the<br>main title. It's a smaller font and the color is lower contrast</p>
+                <p class="hero__paragraph">This website has some subtext that goes here under the<br>main title. It's a
+                    smaller font and the color is lower contrast</p>
                 <button class="hero__cta">Sign up</button>
             </div>
 
