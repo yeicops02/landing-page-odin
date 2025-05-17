@@ -134,19 +134,72 @@ body{
 .cita {
     background-color: var(--color-backgroundgris);
     width: 100%;
-    height: 40rem;
+    height: 50rem;
     display: flex;
-    justify-content:center ;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+
 }
-.cita p{
+.cita__d{
+    display: flex;
+    justify-content: end;
+    width: 844px;
+}
+.cita__d p{
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+
+.cita__text p{
     font-size: 4rem;
     font-weight: 300;
+    
+
 }
 /*Section cta */
 .cta {
     width: 100%;
     height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cta__container{
+    background-color: var(--color-button);
+    width: 65%;
+    height: 12rem;
+    border-radius: 1rem;
+    
+}
+.cta__container-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cta__container-items div {
+    padding-top: 3rem;
+}
+.cta__text {
+    color: var(--color-secondarytextherolink);
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0;
+}
+.cta__text--negrita {
+    color: var(--color-secondarytextherolink)
+
+}
+.cta__button{
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid var(--color-backgroundgris);
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    color: var(--color-backgroundgris);
+    font-weight: 700;
 }
 
 /*Section footer */
